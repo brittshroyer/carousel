@@ -1,0 +1,23 @@
+body{
+  background-color: grey;
+
+}
+.slideHolder{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 400px;
+}
+.slide{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  border: 2px solid black;
+  margin: 50% 50px;
+}
+ul{
+  list-style-type: none;
+}
